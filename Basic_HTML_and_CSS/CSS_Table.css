@@ -1,11 +1,16 @@
 tr, th	{
-	background-color: Lavender;
-	color: black;
+	background-color: Tan;
+	color: Crimson;
 }
 
 tr, td	{
-	background-color: ;
-	color: ;
+	background-color: PaleGoldenRod;
+	color: Black;
+}
+
+td:hover	{
+	background-color: LightYellow;
+	color: DarkViolet;
 }
 
 table	{
