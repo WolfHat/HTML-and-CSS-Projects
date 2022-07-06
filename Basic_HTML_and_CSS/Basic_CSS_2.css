@@ -3,4 +3,6 @@ p	{
 	color: MediumVioletRed;
 	font-size: large;
 	text-align: center;
+	font-weight: bold;
+	text-shadow: 5px 5px 3px Grey;
 }
