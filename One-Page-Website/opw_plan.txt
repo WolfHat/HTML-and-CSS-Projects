@@ -1,0 +1,12 @@
+PLAN
+
+Requirements
+- Home page section (heading, p,)
+- Pictures
+- Contact form
+- Video (iframe)
+- Footer
+- Nav with html bookmarks
+
+The Pampered Pooch - Dog Walking and Pet Sitting Services
+
