@@ -7,6 +7,11 @@
 	<body>
 		<h1>The Pampered Pooch</h1>
 		<h3>Dog Walking and Pet Sitting Services</h3>
+		<nav>
+			<a href="#Services">Service</a>
+			<a href="#Contact">Contact</a>
+			<a href="#Video">Video</a>
+		</nav>
 		<p>
 			Going on a trip and need someone to take care of your beloved fur baby?
 			Is a busy schedule getting in the way of giving your best friend the
@@ -17,10 +22,11 @@
 			Pooch I strive for top quality care and want to give your pet 
 			the attention they deserve.
 		</p>
-		<h3>Services</h3>
-		<h5>Walking</h5>
+		<h2 id="Services">Services</h2>
+		<h4>Walking</h4>
+		<img src="./Images/DogWalk.jpeg">
 		<p>
-			With modern day life getting more and more fast pace, it can be hard
+			With modern day life getting more and more fast paced, it can be hard
 			to find the time in your week to provide the amount of excercise and
 			excitement a dog needs to stay healthy and happy. Not having enough
 			excersice can leave a dog restless, anxious, and more prone to
@@ -28,9 +34,35 @@
 			has more than enough enrichment, leaving both you and your dog less
 			stress, and so for the quality time you do spend together, your pet
 			is already feeling happy and satisfied rather than cranky. <br>
-			My rates are 15$ an hour. Please send me a message in the contact
-			section to arrange a timeslot.
+			My rates are 15$ per walk, 12$ if it's 3 or more days a week. 
+			Please send me a message in the contact section to arrange a timeslot.
 		</p>
-		<h5>Pet Sitting</h5>
+		<h4>Pet Sitting</h4>
+		<img src="./Images/CatPlay.jpeg">
+		<p>
+			If you're going to be away and need someone to watch your pet, why not make sure to
+			leave them in the care of someone experienced. Pet sitting services start at 25$ per day
+			and 150$ per week. Please send me a message in the contact section to schedule your pet's care.
+		</p>
+		<h4 id="Contact">Contact</h4>
+		<form action="" method="get">
+			Name: <input type="text" name="Name"><br>
+			Email: <input type="text" name="Email"><br>
+			Phone Number: <input type="text" name="PhoneNumber"><br>
+			Which service are you requesting: <br>
+			<input type="radio" id="walking" name="service" value="Walking"> <label for="walking">Walking</label><br>
+			<input type="radio" id="sitting" name="service" value="Pet Sitting"> <label for="sitting">Pet Sitting</label><br>
+			If walking, how many days a week?
+			If petsitting, from what dates will you need care? <br>
+			<input type="text" name="Days">
+			
+		</form>
+		<p>You will be contacted within 2 business days of your inquiry to discuss in more detail.</p>
+		<iframe id="Video" width="420" height="315"
+			src="https://www.youtube.com/embed/0YbnnCKxwlY">
+		</iframe>
 	</body>
+	<footer>
+	<p>&copy;2022 The Pampered Pooch</p>
+	</footer>
 </html>
