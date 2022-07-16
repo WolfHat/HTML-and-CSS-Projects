@@ -28,6 +28,56 @@ h1 {
     border: 1px solid black;
     border-radius: 25%;
     cursor: pointer;
+    transition: transform .5s ease-in-out;
 }
 
+/*SELECT ALL SQUARES PARAGRAPHS IN THE ARRAY*/
 
+.squares:nth-child(-n+4) p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+/*INDIVIUALLY SELECT A SQUARE IN THE ARRAY*/
+
+.squares:nth-child(1)   {
+    background: crimson;
+}
+
+.squares:nth-child(2)   {
+    background: limegreen;
+}
+
+.squares:nth-child(3)   {
+    background: deepskyblue;
+}
+
+.squares:nth-child(4)   {
+    background: yellow;
+}
+
+/*HOVER, TRANSLATE, AND TRANSFORM EFFECTS*/
+
+.container .squares:nth-child(-n+4):hover {
+    background-image: url("../Images/Icons/icons2.png");
+}
+
+.squares:nth-child(1):hover {
+    background: lightcoral;
+}
+
+.squares:nth-child(2):hover {
+    background: greenyellow;
+}
+
+.squares:nth-child(3):hover {
+    background: lightskyblue;
+}
+
+.squares:nth-child(4):hover {
+    background: lightgoldenrodyellow;
+}
