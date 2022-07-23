@@ -142,7 +142,7 @@ section {
 /* HOME */
 
 #home {
-    background: url(../Images/DogWalk.jpeg) no-repeat 50% 50%;
+    background: url(../Images/DogWalk.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
