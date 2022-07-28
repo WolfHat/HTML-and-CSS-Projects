@@ -1,7 +1,26 @@
-h1 {
-    font-family: 'Bradley Hand', cursive;
+body {
+    font-family:  Poppins, sans-serif;
 }
 
-p {
-    font-family: Geneva, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+h1 {
+    font-family: Brush Script MT, serif;
+    text-align: center;
+    font-size: 75px;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Abril Fatface', serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+    font-family: 'Abril Fatface', serif;
 }
