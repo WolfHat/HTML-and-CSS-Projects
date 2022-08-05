@@ -107,7 +107,7 @@ h4 {
     border-radius: 50%;
     overflow: hidden;
     border: 15px double #594236;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 0px 0px 0px;
     background-color: #297373;
 }
 
@@ -116,20 +116,22 @@ h4 {
     height: 400px; 
 }
 
-.text-container {
-    text-align: center;
-}
-
-.Services p {
-    display: block;
-    margin: 0px 15px 0px 15px;
-
+.Services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    margin: 0px 50px 0px 50px;
 }
 
 .Walking {
     text-align: right;
-    padding: 20px;
-    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.text-container {
+    margin: 80px 20px 20px 20px;
 }
 
 .Walking .photo-container {
@@ -139,13 +141,12 @@ h4 {
 
 .Sitting {
     text-align: left;
-    padding: 20px;
-    overflow: hidden;
 }
 
 .Sitting .photo-container {
     float: right;
 }
+
 
 /*CONTACT */
 
