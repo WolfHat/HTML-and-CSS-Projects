@@ -9,10 +9,11 @@
 
 <body>
 	<nav class="nav">
-		<a href="#Services">Service</a>
+		<a href="#Services">Services</a>
 		<a href="#Contact">Contact</a>
 		<a href="#Video">Video</a>
 	</nav>
+
 	<h1>The Pampered Pooch</h1>
 	<h3>Dog Walking and Pet Sitting Services</h3>
 	<p>
@@ -25,38 +26,60 @@
 		Pooch I strive for top quality care and want to give your pet
 		the attention they deserve.
 	</p>
-	<h2 id="Services">Services</h2>
-	<h4>Walking</h4>
-	<img src="./Images/DogWalk.jpg">
-	<p>
-		With modern day life getting more and more fast paced, it can be hard
-		to find the time in your week to provide the amount of excercise and
-		excitement a dog needs to stay healthy and happy. Not having enough
-		excersice can leave a dog restless, anxious, and more prone to
-		aggression. But don't fret! That's why I am here to make sure your dog
-		has more than enough enrichment, leaving both you and your dog less
-		stress, and so for the quality time you do spend together, your pet
-		is already feeling happy and satisfied rather than cranky. <br>
-		My rates are 15$ per walk, 12$ if it's 3 or more days a week.
-		Please send me a message in the contact section to arrange a timeslot.
-	</p>
-	<h4>Pet Sitting</h4>
-	<img src="./Images/CatPlay.jpg">
-	<p>
-		If you're going to be away and need someone to watch your pet, why not make sure to
-		leave them in the care of someone experienced. Pet sitting services start at 25$ per day
-		and 150$ per week. Please send me a message in the contact section to schedule your pet's care.
-	</p>
+	<div class="Services">
+
+		<h2 id="Services">Services</h2>
+
+		<h4>Walking</h4>
+		
+		<div class="Walking">
+			<div class="photo-container">
+				<img src="./Images/DogWalk.jpg">
+			</div>
+
+			<p>
+				With modern day life getting more and more fast paced, it can be hard
+				to find the time in your week to provide the amount of excercise and
+				excitement a dog needs to stay healthy and happy. Not having enough
+				excersice can leave a dog restless, anxious, and more prone to
+				aggression. But don't fret! That's why I am here to make sure your dog
+				has more than enough enrichment, leaving both you and your dog less
+				stress, and so for the quality time you do spend together, your pet
+				is already feeling happy and satisfied rather than cranky. <br>
+				My rates are 15$ per walk, 12$ if it's 3 or more days a week.
+				Please send me a message in the contact section to arrange a timeslot.
+			</p>
+		</div>
+
+
+		<h4>Pet Sitting</h4>
+
+		<div class="Sitting">
+			<div class="photo-container">
+				<img src="./Images/CatPlay.jpg">
+			</div>
+
+			<p>
+				If you're going to be away and need someone to watch your pet, why not make sure to
+				leave them in the care of someone experienced. Pet sitting services start at 25$ per day
+				and 150$ per week. Please send me a message in the contact section to schedule your pet's care.
+			</p>
+		</div>
+
+	</div>
+
+
 	<div class="contact">
 		<h2 id="Contact">Contact</h2>
 		<form action="" method="get">
-			Name: <input type="text" name="Name"><br>
-			Email: <input type="text" name="Email"><br>
-			Phone Number: <input type="text" name="PhoneNumber"><br>
+			Name:<br> <input type="text" name="Name"><br>
+			Email:<br> <input type="text" name="Email"><br>
+			Phone Number:<br> <input type="text" name="PhoneNumber"><br>
 			Which service are you requesting: <br>
-			<input type="radio" id="walking" name="service" value="Walking"> <label for="walking">Walking</label><br>
-			<input type="radio" id="sitting" name="service" value="Pet Sitting"> <label for="sitting">Pet
-				Sitting</label><br>
+			<select id="WhatService" name="WhatService">
+				<option value="Walking">Dog Walking</option>
+				<option value="Sitting">Pet Sitting</option>
+			</select> <br>
 			If walking, how many days a week?
 			If petsitting, from what dates will you need care? <br>
 			<input type="text" name="Days">
@@ -68,7 +91,7 @@
 	</iframe>
 </body>
 <footer>
-	<p>&copy;2022 The Pampered Pooch <img src="./Images/Paw.jpg" width="30" height="30"></p>
+	<p>&copy;2022 The Pampered Pooch <img src="./Images/Paw.png" width="30" height="30"></p>
 </footer>
 
 </html>

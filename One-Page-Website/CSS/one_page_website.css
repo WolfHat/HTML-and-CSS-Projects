@@ -1,5 +1,12 @@
 body {
     font-family:  Poppins, sans-serif;
+    font-size: 20px;
+}
+
+nav {
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    background-color: lightgreen;
 }
 
 h1 {
@@ -11,16 +18,95 @@ h1 {
 h3 {
     font-size: 25px;
     text-align: center;
-    font-family: 'Abril Fatface', serif;
+    font-family: "Abril Fatface", serif;
 }
 
 h2 {
     font-size: 30px;
-    font-family: 'Abril Fatface', serif;
+    font-family: "Abril Fatface", serif;
     text-align: center;
 }
 
 h4 {
     font-size: 25px;
-    font-family: 'Abril Fatface', serif;
+    font-family: "Abril Fatface", serif;
+}
+
+form {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: 2px inset;
+    border-radius: 8px;
+    text-align: center;
+}
+
+select {
+    width: 50%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: 2px inset;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.Services h4 {
+    text-align: center;
+    background-color: lightgreen;
+    width: 75%;
+    border: 2px outset;
+}
+
+
+.Services img {
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid lightgreen;
+}
+
+.Walking {
+    text-align: left;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.Walking img {
+    margin-right: 15px;
+    float: left;
+}
+
+.Walking p {
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+
+.Sitting {
+    text-align: left;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.Sitting img {
+    margin-right: 15px;
+    float: right;
+}
+
+.Sitting p {
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+
+
+footer {
+    background-color: lightgreen;
+    text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+    padding: 20px 50px 20px 50px;
+    text-align: right;
 }
