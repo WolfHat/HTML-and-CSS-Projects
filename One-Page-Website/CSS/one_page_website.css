@@ -5,11 +5,12 @@ body {
 }
 
 nav {
-    padding: 10px 20px 20px;
+    padding: 20px 20px 0px 0px;
     text-align: right;
-    /*background-color: #594236;*/
-    background-image: linear-gradient(#594236, #297373);
+    background-color: #594236;
+    /*background-image: linear-gradient(#594236, #594236, #297373);*/
     box-sizing: border-box;
+    border-top: 10px dashed #C2E19B;
 }
 
 nav img {
@@ -24,6 +25,7 @@ nav a {
     text-decoration: none;
     border-radius: 10%;
     margin-right: 20px;
+    margin-top: 0;
     padding: 0px 5px 0px 5px;
     font-family: Poppins, sans-serif;
 }
@@ -32,11 +34,12 @@ nav a {
 
 .heading {
     z-index: 4;
-    background-color: #C2E19B;
-    color: #594236;
+    /*background-color: #C2E19B;*/
+    background-image: linear-gradient(#594236, #297373, #297373, #594236);
+    color: #EDEBD7;
     text-align: center;
-    padding: 5px 0 10px 0;
-    border: 15px outset #594236;
+    padding: 40px 0 60px 0;
+    /*border: 15px outset #C2E19B;*/
 }
 
 h1 {
@@ -44,6 +47,8 @@ h1 {
     font-family: Brush Script MT, serif;
     font-size: 75px;
     margin-bottom: 5px;
+    color: #C2E19B;
+    text-shadow: 8px 8px #594236;
     
 }
 
@@ -56,12 +61,10 @@ h3 {
 }
 
 .extra-heading {
-    /*background-color: #594236;*/
-    background-image: linear-gradient(#297373, #594236);
-    background-size: 3px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 5px 0 5px;
+    background-color: #594236;
+    border-bottom: 10px dashed #C2E19B;
+    margin: 0 0 0 0;
+    padding: 5px 0 5px 0px;
 }
 
 .home {
@@ -76,7 +79,7 @@ h2 {
     color: #594236;
     font-size: 30px;
     font-family: "Abril Fatface", serif;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 
